@@ -4,7 +4,7 @@
 <head>
 
    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-    <title>FISCHEM - 2010</title>
+    <title>Fischef - 2010</title>
     <link href='https://fonts.googleapis.com/css?family=Roboto:400,500&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
     <link href="css/examples.css" rel="stylesheet" type="text/css">
         <!-- Bootstrap Core CSS -->
@@ -46,7 +46,7 @@
        <div id="wrapper">
         <div id="header">
             <img id="logo" src="img/logo.png">
-            <p><a href="index.html">FISCHEM - 2010</a></p>
+            <p><a href="index.html">Fischef - 2010</a></p>
         </div>
 
         <!-- /.row -->
@@ -167,7 +167,8 @@
                 <div class="col-lg-8 col-md-offset-2">
                     <div class="panel panel-default">
                         <div class="panel-heading">
-                            Carga Horária e as taxas de aprovação e reprovação - Por série
+                            <p class="tittle">Carga Horária e as taxas de aprovação e reprovação - Por série </p>
+                            <small>Foram considerados os 200 dias letivos mínimos. Carga horária mínima: 800 horas por ano. Não foram consideradas as taxas de abandono.</small>
                         </div>
                         <!-- /.panel-heading -->
                         <div class="panel-body">
@@ -185,11 +186,31 @@
                 <div class="col-lg-8 col-md-offset-2">
                     <div class="panel panel-default">
                         <div class="panel-heading">
-                            Taxa de aprovação entre Sudeste e regiões.
+                            <p class="tittle">Carga horária cumprida e Taxa de aprovação entre Sudeste e Nordeste</p>
+                            <small>Foram considerados os 200 dias letivos mínimos. Carga horária mínima: 800 horas por ano. Não foram consideradas as taxas de abandono.</small>
                         </div>
                         <!-- /.panel-heading -->
                         <div class="panel-body">
-                            <div id="sudestexregiao-bar-chart"></div>
+                            <div id="sudestenordeste-bar-chart"></div>
+                        </div>
+                        <!-- /.panel-body -->
+                    </div>
+                    <!-- /.panel -->
+                </div>
+            </div>
+            <!-- /.row -->
+
+        <div class="row">
+
+                <div class="col-lg-8 col-md-offset-2">
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <p class="tittle">Carga horária cumprida e Taxa de aprovação entre as localidade Rural e Urbana</p>
+                            <small>Foram considerados os 200 dias letivos mínimos. Carga horária mínima: 800 horas por ano. Não foram consideradas as taxas de abandono.</small>
+                        </div>
+                        <!-- /.panel-heading -->
+                        <div class="panel-body">
+                            <div id="sudestelocalidade-bar-chart"></div>
                         </div>
                         <!-- /.panel-body -->
                     </div>
@@ -199,7 +220,7 @@
             <!-- /.row -->
      
         <div id="footer">
-            Renata Amanda Priscila
+            Amanda Sotero | Renata De Gino | Priscila Almeida
         </div>
     </div>
     <!-- /#wrapper -->
@@ -216,8 +237,7 @@
     <!-- Morris Charts JavaScript -->
     <script src="js/raphael.js"></script>
     <script src="js/morrisjs/morris.min.js"></script>
-    <script src="js/sudeste-data.js"></script>
-    <script src="js/sudestexregiao.js"></script>
+    <script src="js/regioes-data.js"></script>
 
     <!-- Custom Theme JavaScript -->
     <script src="js/sb-admin-2.js"></script>

@@ -37,6 +37,10 @@ input[type=checkbox] {
 	margin: 7px;
 }
 
+.tittle{
+	font-weight: 800;
+}
+
 #destaque{
 	  box-shadow: 2px 5px 25px #a1a1a1;
 
@@ -53,7 +57,7 @@ input[type=checkbox] {
 	margin-top: 23px;
 	margin-left: 100px;
 }
-#morris-bar-chart, #sudeste-bar-chart, #sudestexregiao-bar-chart{
+#morris-bar-chart, #sudeste-bar-chart, #sudestenordeste-bar-chart{
 	height: 425px;
 }
 .down{

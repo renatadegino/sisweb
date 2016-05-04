@@ -2,6 +2,12 @@ body{
 	font-family: 'Roboto', sans-serif;
 }
 
+.timepanel{
+	width: 90%;
+	height: 700px;
+
+}
+
 .demo-container {
 		position: relative;
 		height: 535px;
